@@ -16,5 +16,5 @@ https://mailchimp.com/en-gb/resources/html-semantic-elements-and-webflow-the-ess
 https://www.youtube.com/watch?v=kX3TfdUqpuU&t=2s
 
 
-## [GitHub](https://img.shields.io/github/license/mister-stan/horiseon-digital-marketing)
+## MIT License ![GitHub](https://img.shields.io/github/license/mister-stan/horiseon-digital-marketing)
 
