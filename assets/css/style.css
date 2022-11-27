@@ -61,8 +61,7 @@ p {
     font-size: 16px;
 }
 
-/* sets the main's background with our photo and stretches it at a max set height of 800px and 
-width as max possible on the device used (desktop or mobile) */ 
+/* sets the main's background with our meeting photo and stretches it at a max set height of 800px and width as max possible on the device used (desktop or mobile) */ 
 main {
     height: 800px;
     width: 100%;
