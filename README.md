@@ -13,9 +13,8 @@
 https://mailchimp.com/en-gb/resources/html-semantic-elements-and-webflow-the-essential-guide/
 
 
-https://www.youtube.com/watch?v=kX3TfdUqpuU&
-t=2s
+https://www.youtube.com/watch?v=kX3TfdUqpuU&t=2s
 
 
-## MIT License ![GitHub](https://img.shields.io/github/license/mister-stan/horiseon)
+## MIT License ![GitHub](https://img.shields.io/github/license/mister-stan/horiseon-digital-marketing)
 
