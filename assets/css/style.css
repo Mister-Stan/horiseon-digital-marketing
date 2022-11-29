@@ -1,16 +1,22 @@
-/* applies to all divisions of our page */
+/* P.S.
+  To improve the website loading speed, I have chosen to resize the images given */ 
+
+
+
+
+/* applies to all elements of our page */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* applies for the background of our page and gives a color of light grey */
+/* applies to the background of our page */
 body {
     background-color: #d9dcd6;
 }
 
-/*  applies a green margin to our header and sets the font-family  */
+/*  applies to the logo and navigation links */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,33 +24,32 @@ header {
     color: #ffffff;
 }
 
-/* displays all elements from the header on the same line */
+/* applies to the h1 element */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* sets a color of light grey of span element "seo" inside the h1 element */
+/* applies to the strong element "seo" inside the h1 element */
 header h1 .seo {
     color: #d9dcd6;
 }
 
-/* displays the nav elements on the right side and sets the fonts, padding and margins */
+/* applies to the nav elements */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 
-Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT',Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
  
-/* removes the bullets from the list's elements */
+/* removes the bullets from the list elements */
 header nav ul {
-    list-style-type: none;
+    list-style-type:none;
 }
 
-/* displays all three elements in a block and sets a margin between */
+/* displays the list of elements in a block */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -62,7 +67,7 @@ p {
 }
 
 /* sets the main's background with our meeting photo and stretches it at a max set height of 800px and width as max possible on the device used (desktop or mobile) */ 
-main {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -71,7 +76,7 @@ main {
     background-position: center;
 }
 
-/* displays our photo on the left side of the section */
+/* displays our image on the left side of the section */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -83,11 +88,11 @@ main {
     margin-left: 25px;
 }
 
-/* displays elements on 75% of our container */
-.content {
+/* displays elements on 75% of our device-width */
+#content {
     width: 75%;
     display: inline-block;
-    margin-left: 20px;
+    margin-left:20px;
 }
 
 /* I have changed the background color for better contrast and made it more accessible for people 
@@ -103,42 +108,29 @@ with visual impairment */
     background-color: #0965ce;
 }
 
-/* sets the background color under our logo */
+/* I have unified the classes with similar specifications */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color:white;
 }
 
 
-/* aligns the subtitle in the centre of our section */
-.benefit-lead, .benefit-brand, .benefit-cost h3 {
+/* I have unified the classes with similar specifications */
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* centres the logo inside the section */
-.benefit-lead img {
+/* I have unified the classes with similar specifications */
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* centres the logo inside the section */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-/* centres the logo inside the section */
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* displays the section for this specifications */
-.search-engine-optimization {
+/* I have unified the classes with similar specifications */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -147,62 +139,19 @@ with visual impairment */
     color: #ffffff;
 }
 
-/* displays the section inside the element for this specifications */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* displays the section inside the element for this specifications */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* displays the image inside the element for this specifications */
-.search-engine-optimization img {
-    max-height: 200px;
-
-}
-
-/* displays the image inside the element for this specifications */
-.online-reputation-management img {
+/* I have unified the classes with similar specifications */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-/* displays the image inside the element for this specifications */
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-/* sets the margin and font size of our section sub-title */
-.search-engine-optimization h2 {
+/* I have unified the classes with similar specifications */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* sets the margin and font size of our section sub-title */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-/* sets the margin and font size of our section sub-title */
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* sets the padding, align the text in the middle of footer and creates an empty space to 
-take up the remaining space */
+/* aligns the text in the middle of the footer and creates space to be taken by all element */
 footer {
     padding: 30px;
     clear: both;
@@ -210,7 +159,7 @@ footer {
     text-align: center;
 }
 
-/* sets the font size of our footer */
+/* sets the font size of our h2 element inside the footer */
 footer h2 {
     font-size: 20px;
 }
