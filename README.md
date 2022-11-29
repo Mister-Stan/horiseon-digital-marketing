@@ -1,6 +1,10 @@
 # Horiseon
 
-![My logo](assets/horiseon.png)
+![My logo](assets/images/horiseon.png)
+
+## Website link: 
+
+https://mister-stan.github.io/horiseon-digital-marketing/
 
 ## Digital Marketing Agency
 
@@ -17,6 +21,13 @@ https://www.youtube.com/watch?v=kX3TfdUqpuU&t=2s
 
 
 https://www.youtube.com/watch?v=wu6PPRKcT8Y
+
+
+![My image](assets/images/seo.png)
+
+
+
+
 
 
 ## ![GitHub](https://img.shields.io/github/license/mister-stan/horiseon-digital-marketing)
